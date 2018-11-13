@@ -1,0 +1,10 @@
+{
+  "name": "finance_management",
+  "login": {
+    "login_url": "http://finance.diandainfo.com/user/login",
+    "login_data": {
+      "username": 13774217429,
+      "password": "Daerwen8899"
+    }
+  }
+}

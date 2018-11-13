@@ -1,0 +1,52 @@
+在这个自动化测试框架中。
+
+在config目录中存放的是测试配置相关的文件，配置文件可以使用ini、xml、yml等文件类型。例如，要测试的网址、调试日志的文件名、日志的输出格式等
+
+在data目录中存放的是需要测试的数据。可以使用xmls、xml等文件类型。例如，测试网址中要提交的各种各样的内容。
+
+在drivers目录中存放的是测试需要用到的浏览器驱动。主要为chromedriver.exe、IEDriverServer.exe、phantomjs.exe
+
+在log目录下存放输出日志.log文件。
+
+在report目录下存放测试报告文件html类的文件。
+
+在test目录下存放所有测试相关的文件。
+
+– 在test/case目录下，用于存放测试用例。
+
+– 在test/common目录下，用于存放跟项目、页面无关的封装。
+
+– 在test/interface目录下，用于存放以前台角色测试后台接口的测试用例。
+
+– 在test/page目录下，用于存放具体页面测试时的重复性过程。
+
+– 在test/suite目录下，用于存放测试套件，用来组织用例。
+
+在utils目录下存放公共方法。
+– utils/assertion.py文件用于添加各种自定义的断言（测试结果和目标结果是否一致的判断），断言失败抛出AssertionError就OK。
+
+– utils/client.py文件用于测试web后台接口的前端client，对于HTTP接口添加HTTPClient，发送http请求。还可以封装TCPClient，用来进行tcp链接，测试socket接口等等。
+
+– utils/config.py文件用于项目公共内容配置，以及读取配置文件中的配置。这里配置文件用的yaml，也可用其他如XML,INI等，需在file_reader中添加相应的Reader进行处理。
+
+– utils/extractor.py文件用于抽取器，从响应结果中抽取部分数据，这里实现的是json返回数据的抽取，可以自己添加XML格式、普通字符串格式、Header的抽取器
+
+– utils/file_reader.py文件用于文件的读取,包含配置文件和数据文件的读取函数.根据文件地址，返回文件中包含的内容
+
+– utils/generator.py文件用于一些生成器方法，生成随机数，手机号，以及连续数字等，以便使用这些数据进行测试
+
+– utils/HTMLTestRunner.py是一个第三方模块，用于生成html的测试报告。读者可以不改动它。
+
+– utils/log.py文件通过读取配置文件，定义日志级别、日志文件名、日志格式等。
+
+– utils/mail.py文件用来给指定用户发送邮件。可指定多个收件人，可带附件。
+
+– utils/support.py文件用来编写一些支持方法，比如签名、加密等
+
+相关提示：
+pycharm中如果无法引入自定义模块，要先在pycharm中右键点击项目根目录->标记目录为Resource Root，然后再右键点击项目根目录->根源。这样就能引用项目根目录下的所有自定义模块了。
+--------------------- 
+作者：数据架构师 
+来源：CSDN 
+原文：https://blog.csdn.net/luanpeng825485697/article/details/79457867 
+版权声明：本文为博主原创文章，转载请附上博文链接！

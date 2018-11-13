@@ -1,0 +1,29 @@
+{
+  "name":"global_Info_management",
+  "login":{
+    "login_url":"http://sso-server.diandainfo.com/user/login",
+    "login_data":{
+      "phone":13774217429,
+      "password":"Daerwen8899"
+    }
+  },
+  "list":{
+    "login_url":"http://qj.diandainfo.com/users/list",
+    "login_data":{
+      "userName":13774217429,
+      "password":"Daerwen8899"
+    }
+  },
+  "getProvince":{
+    "getProvince_url":"http://qj.diandainfo.com/api/city/getProvince",
+    "getProvince_data":{
+
+    }
+  },
+  "submitImg":{
+    "submitImg_url":"http://qj.diandainfo.com/goods/submitImg",
+    "submitImg_data":{
+      "id":""
+    }
+  }
+}

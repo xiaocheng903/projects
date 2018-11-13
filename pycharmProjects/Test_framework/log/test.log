@@ -1,0 +1,435 @@
+2018-03-13 22:21:43,282 - framework - DEBUG - GET http://127.0.0.1:8000/user/userRegist
+2018-03-13 22:21:43,391 - framework - DEBUG - 请求成功: <Response [404]>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /user/userRegist</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://127.0.0.1:8000/user/userRegist</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>CDLLP.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^chatapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^commentapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^diaryapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^diarydealapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^feedbackapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^moreapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^mycaidanapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^qunapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^tongzhiapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^userapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^versionapp/
+                
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+        The current path, <code>user/userRegist</code>, didn't match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+2018-03-13 22:21:43,391 - framework - DEBUG - <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /user/userRegist</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+        <td>http://127.0.0.1:8000/user/userRegist</td>
+      </tr>
+      
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>CDLLP.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^chatapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^commentapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^diaryapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^diarydealapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^feedbackapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^moreapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^mycaidanapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^qunapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^tongzhiapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^userapp/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^versionapp/
+                
+            
+          </li>
+        
+      </ol>
+      <p>
+        
+        The current path, <code>user/userRegist</code>, didn't match any of these.
+      </p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+2018-11-05 15:39:13,832 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 15:39:13,879 - framework - INFO - 栾鹏全栈_百度图片
+2018-11-05 15:39:13,916 - framework - INFO - 一个demo学会js - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 15:39:13,953 - framework - INFO - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 15:39:13,992 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 15:39:14,028 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 15:39:14,074 - framework - INFO - c#实现图片裁剪 - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 15:39:14,116 - framework - INFO - 【全栈工程师开发手册(原创)】js - CSDN博客
+2018-11-05 15:39:14,151 - framework - INFO - js中数组原型Array、自定义原型函数Array.prototype - 全栈工程师...
+2018-11-05 15:39:14,185 - framework - INFO - matlab2c使用c++实现matlab函数系列教程-find函数 - 全栈工程师...
+2018-11-05 15:39:24,268 - framework - INFO - 全栈工程师_百度百科
+2018-11-05 15:39:24,298 - framework - INFO - 全栈工程师和架构师的区别 - 军说网事 - CSDN博客
+2018-11-05 15:39:24,333 - framework - INFO - 为什么越来越多的公司只要全栈工程师? - CSDN资讯 - CSDN博客
+2018-11-05 15:39:24,369 - framework - INFO - 40万年薪全栈工程师需要掌握哪些知识? - CSDN博客
+2018-11-05 15:39:24,401 - framework - INFO - 什么是全栈工程师_百度知道
+2018-11-05 15:39:24,430 - framework - INFO - 全栈工程师技能图谱 - morra - 博客园
+2018-11-05 15:39:24,472 - framework - INFO - 怎样成为全栈工程师(Full Stack Developer)? - 知乎
+2018-11-05 15:39:24,505 - framework - INFO - 关于全栈工程师,你应该知道这些基本常识
+2018-11-05 15:39:24,541 - framework - INFO - 转:全栈工程师的知识栈列表 - 跬步者 - 博客园
+2018-11-05 15:39:24,579 - framework - INFO - “全栈”工程师 请不要随意去做 - 非淡泊无以明志,非宁..._CSDN博客
+2018-11-05 15:40:09,496 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 15:40:09,526 - framework - INFO - 栾鹏全栈_百度图片
+2018-11-05 15:40:09,555 - framework - INFO - 一个demo学会js - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 15:40:09,583 - framework - INFO - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 15:40:09,615 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 15:40:09,647 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 15:40:09,699 - framework - INFO - c#实现图片裁剪 - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 15:40:09,729 - framework - INFO - 【全栈工程师开发手册(原创)】js - CSDN博客
+2018-11-05 15:40:09,755 - framework - INFO - js中数组原型Array、自定义原型函数Array.prototype - 全栈工程师...
+2018-11-05 15:40:09,790 - framework - INFO - matlab2c使用c++实现matlab函数系列教程-find函数 - 全栈工程师...
+2018-11-05 15:40:18,722 - framework - INFO - 全栈工程师_百度百科
+2018-11-05 15:40:18,754 - framework - INFO - 全栈工程师和架构师的区别 - 军说网事 - CSDN博客
+2018-11-05 15:40:18,779 - framework - INFO - 为什么越来越多的公司只要全栈工程师? - CSDN资讯 - CSDN博客
+2018-11-05 15:40:18,806 - framework - INFO - 40万年薪全栈工程师需要掌握哪些知识? - CSDN博客
+2018-11-05 15:40:18,832 - framework - INFO - 什么是全栈工程师_百度知道
+2018-11-05 15:40:18,870 - framework - INFO - 全栈工程师技能图谱 - morra - 博客园
+2018-11-05 15:40:18,914 - framework - INFO - 怎样成为全栈工程师(Full Stack Developer)? - 知乎
+2018-11-05 15:40:18,965 - framework - INFO - 关于全栈工程师,你应该知道这些基本常识
+2018-11-05 15:40:18,998 - framework - INFO - 转:全栈工程师的知识栈列表 - 跬步者 - 博客园
+2018-11-05 15:40:19,038 - framework - INFO - “全栈”工程师 请不要随意去做 - 非淡泊无以明志,非宁..._CSDN博客
+2018-11-05 16:25:35,900 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 16:25:35,943 - framework - INFO - 栾鹏全栈_百度图片
+2018-11-05 16:25:35,988 - framework - INFO - 一个demo学会js - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 16:25:36,049 - framework - INFO - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 16:25:36,095 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 16:25:36,130 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 16:25:36,169 - framework - INFO - c#实现图片裁剪 - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 16:25:36,204 - framework - INFO - 【全栈工程师开发手册(原创)】js - CSDN博客
+2018-11-05 16:25:36,237 - framework - INFO - js中数组原型Array、自定义原型函数Array.prototype - 全栈工程师...
+2018-11-05 16:25:36,274 - framework - INFO - matlab2c使用c++实现matlab函数系列教程-find函数 - 全栈工程师...
+2018-11-05 16:25:48,487 - framework - INFO - 全栈工程师_百度百科
+2018-11-05 16:25:48,537 - framework - INFO - 全栈工程师和架构师的区别 - 军说网事 - CSDN博客
+2018-11-05 16:25:48,576 - framework - INFO - 为什么越来越多的公司只要全栈工程师? - CSDN资讯 - CSDN博客
+2018-11-05 16:25:48,617 - framework - INFO - 40万年薪全栈工程师需要掌握哪些知识? - CSDN博客
+2018-11-05 16:25:48,672 - framework - INFO - 什么是全栈工程师_百度知道
+2018-11-05 16:25:48,710 - framework - INFO - 全栈工程师技能图谱 - morra - 博客园
+2018-11-05 16:25:48,753 - framework - INFO - 怎样成为全栈工程师(Full Stack Developer)? - 知乎
+2018-11-05 16:25:48,784 - framework - INFO - 关于全栈工程师,你应该知道这些基本常识
+2018-11-05 16:25:48,813 - framework - INFO - 转:全栈工程师的知识栈列表 - 跬步者 - 博客园
+2018-11-05 16:25:48,846 - framework - INFO - “全栈”工程师 请不要随意去做 - 非淡泊无以明志,非宁..._CSDN博客
+2018-11-05 16:30:06,622 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 16:30:06,652 - framework - INFO - 栾鹏全栈_百度图片
+2018-11-05 16:30:06,679 - framework - INFO - 一个demo学会js - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 16:30:06,707 - framework - INFO - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 16:30:06,734 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 16:30:06,765 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 16:30:06,792 - framework - INFO - c#实现图片裁剪 - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 16:30:06,823 - framework - INFO - 【全栈工程师开发手册(原创)】js - CSDN博客
+2018-11-05 16:30:06,857 - framework - INFO - js中数组原型Array、自定义原型函数Array.prototype - 全栈工程师...
+2018-11-05 16:30:06,896 - framework - INFO - matlab2c使用c++实现matlab函数系列教程-find函数 - 全栈工程师...
+2018-11-05 16:30:19,345 - framework - INFO - 全栈工程师_百度百科
+2018-11-05 16:30:19,403 - framework - INFO - 全栈工程师和架构师的区别 - 军说网事 - CSDN博客
+2018-11-05 16:30:19,466 - framework - INFO - 为什么越来越多的公司只要全栈工程师? - CSDN资讯 - CSDN博客
+2018-11-05 16:30:19,510 - framework - INFO - 40万年薪全栈工程师需要掌握哪些知识? - CSDN博客
+2018-11-05 16:30:19,552 - framework - INFO - 什么是全栈工程师_百度知道
+2018-11-05 16:30:19,587 - framework - INFO - 全栈工程师技能图谱 - morra - 博客园
+2018-11-05 16:30:19,631 - framework - INFO - 怎样成为全栈工程师(Full Stack Developer)? - 知乎
+2018-11-05 16:30:19,675 - framework - INFO - 关于全栈工程师,你应该知道这些基本常识
+2018-11-05 16:30:19,727 - framework - INFO - 转:全栈工程师的知识栈列表 - 跬步者 - 博客园
+2018-11-05 16:30:19,775 - framework - INFO - “全栈”工程师 请不要随意去做 - 非淡泊无以明志,非宁..._CSDN博客
+2018-11-05 17:47:16,199 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 17:47:16,226 - framework - INFO - 栾鹏全栈_百度图片
+2018-11-05 17:47:16,253 - framework - INFO - 一个demo学会js - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 17:47:16,284 - framework - INFO - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 17:47:16,309 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 17:47:16,336 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 17:47:16,362 - framework - INFO - c#实现图片裁剪 - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 17:47:16,393 - framework - INFO - 【全栈工程师开发手册(原创)】js - CSDN博客
+2018-11-05 17:47:16,422 - framework - INFO - js中数组原型Array、自定义原型函数Array.prototype - 全栈工程师...
+2018-11-05 17:47:16,458 - framework - INFO - matlab2c使用c++实现matlab函数系列教程-find函数 - 全栈工程师...
+2018-11-05 17:47:28,789 - framework - INFO - 全栈工程师_百度百科
+2018-11-05 17:47:28,835 - framework - INFO - 全栈工程师和架构师的区别 - 军说网事 - CSDN博客
+2018-11-05 17:47:28,891 - framework - INFO - 为什么越来越多的公司只要全栈工程师? - CSDN资讯 - CSDN博客
+2018-11-05 17:47:28,945 - framework - INFO - 40万年薪全栈工程师需要掌握哪些知识? - CSDN博客
+2018-11-05 17:47:28,995 - framework - INFO - 什么是全栈工程师_百度知道
+2018-11-05 17:47:29,067 - framework - INFO - 全栈工程师技能图谱 - morra - 博客园
+2018-11-05 17:47:29,124 - framework - INFO - 怎样成为全栈工程师(Full Stack Developer)? - 知乎
+2018-11-05 17:47:29,191 - framework - INFO - 关于全栈工程师,你应该知道这些基本常识
+2018-11-05 17:47:29,254 - framework - INFO - 转:全栈工程师的知识栈列表 - 跬步者 - 博客园
+2018-11-05 17:47:29,322 - framework - INFO - “全栈”工程师 请不要随意去做 - 非淡泊无以明志,非宁..._CSDN博客
+2018-11-05 17:50:48,493 - framework - INFO - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 17:50:48,531 - framework - INFO - 前端必备——js中前端与后台的数据交互全解
+2018-11-05 17:50:48,570 - framework - INFO - 栾鹏全栈_百度图片
+2018-11-05 17:50:48,618 - framework - INFO - 【全栈工程师开发手册(原创)】js - CSDN博客
+2018-11-05 17:50:48,657 - framework - INFO - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 17:50:48,694 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 17:50:48,734 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 17:50:48,770 - framework - INFO - ...detach、empty、replaceWith、replaceAll - 全栈工程师开发...
+2018-11-05 17:50:48,807 - framework - INFO - 安卓短信功能全解:调用系统短信功能发送短信、彩信,使..._CSDN博客
+2018-11-05 17:50:48,857 - framework - INFO - 西门子 WinCC V7 从入门到提高-CSDN下载
+2018-11-05 17:50:59,474 - framework - INFO - 全栈工程师_百度百科
+2018-11-05 17:50:59,531 - framework - INFO - 全栈工程师和架构师的区别 - 军说网事 - CSDN博客
+2018-11-05 17:50:59,585 - framework - INFO - 为什么越来越多的公司只要全栈工程师? - CSDN资讯 - CSDN博客
+2018-11-05 17:50:59,646 - framework - INFO - 40万年薪全栈工程师需要掌握哪些知识? - CSDN博客
+2018-11-05 17:50:59,692 - framework - INFO - 什么是全栈工程师_百度知道
+2018-11-05 17:50:59,757 - framework - INFO - 全栈工程师技能图谱 - morra - 博客园
+2018-11-05 17:50:59,811 - framework - INFO - 怎样成为全栈工程师(Full Stack Developer)? - 知乎
+2018-11-05 17:50:59,867 - framework - INFO - 关于全栈工程师,你应该知道这些基本常识
+2018-11-05 17:50:59,924 - framework - INFO - 转:全栈工程师的知识栈列表 - 跬步者 - 博客园
+2018-11-05 17:50:59,992 - framework - INFO - “全栈”工程师 请不要随意去做 - 非淡泊无以明志,非宁..._CSDN博客
+2018-11-05 18:08:18,538 - framework - INFO - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 18:08:19,879 - framework - INFO - 前端必备——js中前端与后台的数据交互全解
+2018-11-05 18:08:21,309 - framework - INFO - 栾鹏全栈_百度图片
+2018-11-05 18:08:21,980 - framework - INFO - 【全栈工程师开发手册(原创)】js - CSDN博客
+2018-11-05 18:08:22,743 - framework - INFO - 全栈工程师开发手册(原创) - CSDN博客
+2018-11-05 18:08:23,509 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 18:08:24,159 - framework - INFO - 全栈工程师开发手册(原创) - 第 1 页 - CSDN博客
+2018-11-05 18:08:24,756 - framework - INFO - ...detach、empty、replaceWith、replaceAll - 全栈工程师开发...
+2018-11-05 18:08:25,477 - framework - INFO - 安卓短信功能全解:调用系统短信功能发送短信、彩信,使..._CSDN博客
+2018-11-05 18:08:26,218 - framework - INFO - 西门子 WinCC V7 从入门到提高-CSDN下载
+2018-11-05 18:09:10,332 - framework - INFO - 全栈工程师_百度百科
+2018-11-05 18:09:11,075 - framework - INFO - 全栈工程师和架构师的区别 - 军说网事 - CSDN博客
+2018-11-05 18:09:11,462 - framework - INFO - 为什么越来越多的公司只要全栈工程师? - CSDN资讯 - CSDN博客
+2018-11-05 18:09:11,842 - framework - INFO - 40万年薪全栈工程师需要掌握哪些知识? - CSDN博客
+2018-11-05 18:09:12,462 - framework - INFO - 什么是全栈工程师_百度知道

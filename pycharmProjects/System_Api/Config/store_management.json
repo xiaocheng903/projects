@@ -1,0 +1,35 @@
+{
+  "name":"store_management",
+  "login":{
+    "login_url":"http://yw.diandainfo.com/login",
+    "login_data":{
+      "phone":13774217429,
+      "pwd":"Daerwen8899"
+    }
+  },
+  "changeCity":{
+    "changeCity_url":"http://yw.diandainfo.com/login/changeCity",
+    "changeCity_data":{
+      "cid":320700
+    }
+  },
+  "salesmanList":{
+    "salesmanList_url":"http://yw.diandainfo.com/api/salesman/list",
+    "salesmanList_data":{
+      "draw":1,
+      "start":0,
+      "length":10
+    }
+  },
+  "propertyShop":{
+    "propertyShop_url":"http://yw.diandainfo.com/api/option/property/getShop",
+    "propertyShop_data":{
+      "isHaveChildren":1
+    }
+  },
+  "storeArea":{
+    "storeArea_url":"http://yw.diandainfo.com/api/store/area",
+    "storeArea_data":{
+    }
+  }
+}

@@ -1,0 +1,4 @@
+1540954572143	geckodriver	INFO	Listening on 127.0.0.1:49618
+1540954575137	mozprofile::profile	INFO	Using profile path C:\Users\lenovo\AppData\Local\Temp\rust_mozprofile.qapdzYhieZOw
+1540954575146	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe
+1540954575210	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49632
